@@ -2,27 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
-        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
-        <link rel="stylesheet" href="style.css">
-    <title>Clone Thursday</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Clone Thursday</title>
 </head>
 
-<body>
-    <header>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
 
-    </header>
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
 
-    <main>
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
 
-    </main>
+<body class="debug">
+  <header class="container-fluid">
+    <div class="row justify-content-center bg-dark">
+      <div class="col-6 text-center text-light">
+        <h1 class="big-logo "><span class="mdi mdi-chess-knight"></span></h1>
+        <h1>Welcome To Knight Studios</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, quasi!</p>
+        <button class="btn btn-success">Get Started</button>
+      </div>
+    </div>
+    <div class="row justify-content-between shadow">
+      <div class="col-md-3 text-center small-logo"><span class="mdi mdi-chess-knight"></span></div>
+      <div class="col-md-8 ">
+        <ul class="nav justify-content-end align-items-center pt-4">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Drop Down</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <footer>
+  </header>
 
-    </footer>
+  <main class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 knight-1">
+      </div>
+
+      <div class="col-6">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consequuntur accusamus eaque voluptatum
+          doloremque. Neque, repudiandae? Libero corrupti modi quos. Quia illo temporibus, exercitationem quibusdam nemo
+          hic officia ut alias.</p>
+          <p><span class="mdi mdi-check-all text-success pe-1"></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p><span class="mdi mdi-check-all text-success pe-1"></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p><span class="mdi mdi-check-all text-success pe-1"></span> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quod necessitatibus aliquam, quibusdam et
+          iure aut, fugit maiores dolor consequuntur modi vero voluptas eos iusto. Alias quod officia nulla provident.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, harum quisquam!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">text</div>
+      <div class="col-6">image</div>
+    </div>
+    <div class="row">
+      <div class="col-6">image</div>
+      <div class="col-6">text</div>
+    </div>
+    <div class="row">
+      <div class="col-7">text</div>
+      <div class="col-5">image</div>
+    </div>
+    <div class="row">
+      <div class="col-12">""</div>
+    </div>
+    <div class="row">
+      <h2>Pricing</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione quo.</p>
+    </div>
+    <div class="row">
+      <div class="col-12">cards</div>
+    </div>
+    <div class="row">
+      <h2>Contact</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, sed maiores!</p>
+    </div>
+    <div class="row">
+      <div class="col-4">text</div>
+      <div class="col-8">form</div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-12">footer</div>
+    </div>
+  </footer>
 
 </body>
 
